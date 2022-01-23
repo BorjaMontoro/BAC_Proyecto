@@ -1,5 +1,6 @@
 # BAC_Proyecto
  Choose your history repository.
+ 
  Este proyecto consta de la creación de una máquina virtual en el entorno de Azure, la creación de una base de datos con el objetivo de poder utilizarla en nuestra aplicación programada con Python en la que son varias historias en la que dependiendo de lo que escojas te llevara para un sitio u otro.
  
  Primero hemos creado un repositorio de git hub donde podíamos ir subiendo las cosas que íbamos haciendo a medida que llevábamos trabajando estas 2 semanas.
