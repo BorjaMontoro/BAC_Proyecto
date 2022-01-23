@@ -6,8 +6,8 @@ limit 8;
 
 select u.username AS 'NOMBRE USUARIO', count(g.id_user) as PARTIDAS_JUGADAS from GAME g
 inner join USER u on g.id_user=u.id_user
-group by u.username, g.date
-order by PARTIDAS_JUGADAS desc, date asc
+group by u.username
+order by PARTIDAS_JUGADAS desc
 limit 1;
 
 select g.id_adventure, a.name_adventure, g.date 
@@ -16,4 +16,3 @@ inner join ADVENTURE a on a.id_adventure=g.id_adventure
 inner join USER u on u.id_user=g.id_user
 where username='proyecto1'
 order by date desc;
-
